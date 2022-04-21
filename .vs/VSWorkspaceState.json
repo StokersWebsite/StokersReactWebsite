@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\src",
+    "\\backend\\src\\authz",
+    "\\frontend",
+    "\\frontend\\public",
+    "\\frontend\\src",
+    "\\frontend\\src\\auth",
+    "\\frontend\\src\\components",
+    "\\frontend\\src\\images",
+    "\\frontend\\src\\views"
+  ],
+  "SelectedNode": "\\frontend\\src\\views\\index.js",
+  "PreviewInSolutionExplorer": false
+}

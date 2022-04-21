@@ -9,8 +9,10 @@ const NavBar = () => {
   return (
     <div className="nav-container mb-3">
       <nav className="navbar navbar-expand-md navbar-light bg-light">
-        <div className="container">
-          <div className="navbar-brand logo" />
+              <div className="container">
+                  <img src="https://i.ibb.co/T0SSqgt/Stokers-Logo-No-Background.png" alt="StokersLogo" width="100" height="100"></img>
+
+          {/*<div className="navbar-brand logo" />*/}
           <MainNav />
           <AuthNav />
         </div>
