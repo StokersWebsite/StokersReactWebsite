@@ -27,6 +27,22 @@ const MainNav = () => (
     >
       External API
     </NavLink>
+    <NavLink
+      to="/Activiteiten"
+      exact 
+      className="nav-link"
+      activeClassName="router-link-exact-active"
+      >
+        Activiteiten
+      </NavLink>
+      <NavLink
+      to="/Plaatjes"
+      exact 
+      className="nav-link"
+      activeClassName="router-link-exact-active"
+      >
+        Plaatjes
+      </NavLink>
   </div>
 );
 

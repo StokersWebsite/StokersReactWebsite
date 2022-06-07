@@ -2,6 +2,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
+import {NavLink} from "react-router-dom";
+
 
 const HomeContent = () => (
 
@@ -12,20 +14,17 @@ const HomeContent = () => (
         <div className="row">
             <div className="col-md-5 mb-4">
                 <h6 className="mb-3">
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://auth0.com/docs/connections"
-                    >
-                        <FontAwesomeIcon icon={faLink} className="mr-2" />
-                        Configure other identity providers
-                    </a>
+                      Profile
+                      <NavLink
+                        to="/profile"
+                        exact
+                        className="nav-link"
+                        activeClassName="router-link-exact-active"
+                      >
+                    </NavLink>
                 </h6>
                 <p>
-                    Auth0 supports social providers as Facebook, Twitter, Instagram and
-                    100+, Enterprise providers as Microsoft Office 365, Google Apps,
-                    Azure, and more. You can also use any OAuth2 Authorization Server.
-
+                    Op deze site kun je zien wat de stokers allemaal doen, door middel van foto's
                 </p>
             </div>
 
@@ -47,19 +46,17 @@ const HomeContent = () => (
             <div className="row">
                 <div className="col-md-5 mb-4">
                     <h6 className="mb-3">
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://auth0.com/docs/anomaly-detection"
-                        >
-                            <FontAwesomeIcon icon={faLink} className="mr-2" />
-                            Anomaly Detection
-                        </a>
+                    Activiteiten
+                      <NavLink
+                        to="/activiteiten"
+                        exact
+                        className="nav-link"
+                        activeClassName="router-link-exact-active"
+                      >
+                    </NavLink>
                     </h6>
                     <p>
-                        Auth0 can detect anomalies and stop malicious attempts to access your
-                        application. Anomaly detection can alert you and your users of
-                        suspicious activity, as well as block further login attempts.
+                        Ook kun je op de site zien wat de stokers allemaal nog gaan doen. En als je lid bent kun je je ook inschrijven om mee te doen.
                     </p>
                 </div>
 
@@ -67,14 +64,6 @@ const HomeContent = () => (
 
                 <div className="col-md-5 mb-4">
                     <h6 className="mb-3">
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://auth0.com/docs/rules"
-                        >
-                            <FontAwesomeIcon icon={faLink} className="mr-2" />
-                            Learn About Rules
-                        </a>
                     </h6>
                     <p>
                         Rules are JavaScript functions that execute when a user authenticates

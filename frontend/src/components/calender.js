@@ -17,4 +17,3 @@
 ////            <p>Current selected date is <b>{moment(dateState).format('MMMM Do YYYY')}</b></p>
 ////        </>
 ////    )
-////}
