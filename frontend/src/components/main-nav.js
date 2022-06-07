@@ -36,12 +36,12 @@ const MainNav = () => (
         Activiteiten
       </NavLink>
       <NavLink
-      to="/Plaatjes"
+      to="/FotoAlbum"
       exact 
       className="nav-link"
       activeClassName="router-link-exact-active"
       >
-        Plaatjes
+        Foto album
       </NavLink>
   </div>
 );

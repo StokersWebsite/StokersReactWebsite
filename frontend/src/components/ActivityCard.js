@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import ActivityAPI from "../API/ActivityAPI";
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 // const Iprops= () => {           
 //     ID,
@@ -12,6 +14,7 @@ import ActivityAPI from "../API/ActivityAPI";
 // }
 
 function ActivityCard (){
+  const { user } = useAuth0();
   const [activities, setActivities] = React.useState();
 
   useEffect(() => {
