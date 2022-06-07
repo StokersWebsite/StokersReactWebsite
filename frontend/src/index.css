@@ -68,3 +68,7 @@ code {
 .hero .app-logo {
   max-width: 10.5rem;
 }
+
+.color-nav {
+  background-color: green;
+}

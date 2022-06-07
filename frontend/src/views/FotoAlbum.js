@@ -6,9 +6,10 @@ const FotoAlbum = () => {
    return (
       <div className="App">
         <h3>Stokers single "Mooi Man"</h3>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/q5nZoWK-vbA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="500" height="400" src="https://www.youtube.com/embed/UgzxGebSAGw" frameborder="5" allowfullscreen></iframe>
+        <h3>Stokers Pers conferentie</h3>
+        <iframe width="500" height="400" src="https://www.youtube.com/embed/8GQsqaLKJLc" frameborder="5" allowfullscreen></iframe>
       </div>
-      
     );
   }
 
