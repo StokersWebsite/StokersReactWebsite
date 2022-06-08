@@ -9,6 +9,7 @@ import { Profile, Home, ExternalApi } from "./views";
 import Activiteiten from "./views/Activiteiten"
 import FotoAlbum from "./views/FotoAlbum"
 import ProtectedRoute from "./auth/protected-route";
+import ActiviteitenToevoegen from "./views/ActiviteitenToevoegen";
 
 import "./app.css";
 
@@ -28,7 +29,8 @@ const App = () => {
           <Route path="/Activiteiten" exact component={Activiteiten} />
           <ProtectedRoute path="/profile" component={Profile} />
           <ProtectedRoute path="/external-api" component={ExternalApi} />
-          <ProtectedRoute path="/FotoAlbum" exact component={FotoAlbum} />
+          <Route path="/FotoAlbum" exact component={FotoAlbum} />
+          <ProtectedRoute path="/ActiviteitenToevoegen" exact component={ActiviteitenToevoegen} />
         </Switch>
       </div>
       <Footer />
