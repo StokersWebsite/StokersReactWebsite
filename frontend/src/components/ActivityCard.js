@@ -60,7 +60,7 @@ function ActivityCard (){
           }
         </div>
       :
-          <div>Be patient</div>
+          <div>Retrieving date from the API, please wait...</div>
       }
       
           {/* <div><button className="btn btn-primary btn-block" onClick={routeChange}>Activiteit Toevoegen</button></div> */}
