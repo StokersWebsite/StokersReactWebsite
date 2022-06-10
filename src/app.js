@@ -5,7 +5,7 @@ import { Route, Switch } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 
 import { NavBar, Footer, Loading } from "./components";
-import { Profile, Home, ExternalApi } from "./views";
+import { Profile, Home } from "./views";
 import Activiteiten from "./views/Activiteiten"
 import FotoAlbum from "./views/FotoAlbum"
 import ProtectedRoute from "./auth/protected-route";
@@ -28,7 +28,6 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/Activiteiten" exact component={Activiteiten} />
           <ProtectedRoute path="/profile" component={Profile} />
-          <ProtectedRoute path="/external-api" component={ExternalApi} />
           <Route path="/FotoAlbum" exact component={FotoAlbum} />
           <ProtectedRoute path="/ActiviteitenToevoegen" exact component={ActiviteitenToevoegen} />
         </Switch>
