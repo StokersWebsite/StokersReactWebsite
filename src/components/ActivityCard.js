@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import ActivityAPI from "../API/ActivityAPI";
-import { useAuth0 } from "@auth0/auth0-react";
 import {NavLink} from "react-router-dom";
 
 function ActivityCard (){
@@ -29,7 +28,7 @@ function ActivityCard (){
                   <p className="card-text">Wat is dit? {activity.description}</p>
                   <p className="card-text">Wanneer? {activity.date}</p>
                   <p className="card-text">Voor hoeveel personen? {activity.maxMembers}</p>
-                  <a href="#" size="50px" className="btn btn-primary"
+                  <a href="/Activiteiten" size="50px" className="btn btn-primary"
                   style={{
                     maxWidth: '500px',
                     maxHeight: '500px',
