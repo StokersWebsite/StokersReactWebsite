@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ActivityAPI from "../API/ActivityAPI";
 import {NavLink} from "react-router-dom";
-import Button from 'react-bootstrap/Button';
 
 function ActivityCard (){
   const [activities, setActivities] = React.useState();
