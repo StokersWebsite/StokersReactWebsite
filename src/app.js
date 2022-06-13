@@ -10,6 +10,8 @@ import Activiteiten from "./views/Activiteiten"
 import FotoAlbum from "./views/FotoAlbum"
 import ProtectedRoute from "./auth/protected-route";
 import ActiviteitenToevoegen from "./views/ActiviteitenToevoegen";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import "./app.css";
 

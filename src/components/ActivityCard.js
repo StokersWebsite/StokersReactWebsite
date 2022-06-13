@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import ActivityAPI from "../API/ActivityAPI";
 import {NavLink} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 function ActivityCard (){
   const [activities, setActivities] = React.useState();
@@ -28,15 +29,17 @@ function ActivityCard (){
                   <p className="card-text">Wat is dit? {activity.description}</p>
                   <p className="card-text">Wanneer? {activity.date}</p>
                   <p className="card-text">Voor hoeveel personen? {activity.maxMembers}</p>
-                  <a href="/Activiteiten" size="50px" className="btn btn-primary"
+                  {/* <Button>Ik doe mee!</Button> */}
+                  {/* <a href="#" size="50px" className="btn btn-primary"
                   style={{
                     maxWidth: '500px',
                     maxHeight: '500px',
                     minWidth: '30',
                     minheight: '30',
                   }}
-                  >Ik doe mee!</a>
-                {''}</div>
+                  >Ik doe mee!</a> */}
+                   {''}
+               </div>
               )
             })
           }
