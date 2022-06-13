@@ -2,22 +2,6 @@ import React, { useEffect } from "react";
 import ActivityAPI from "../API/ActivityAPI";
 import { useAuth0 } from "@auth0/auth0-react";
 import {NavLink} from "react-router-dom";
-import {Link} from "react-router"
-
-// const Iprops= () => {           
-//     ID,
-//     Description,       
-//     Title,
-//     LocationBased,
-//     MaxPeople,
-//     MinPeople,
-//     StartEvent
-// }
-// let navigate = useNavigate(); 
-// const routeChange = () =>{ 
-//   let path = `http://localhost:4040/ActiviteitenToevoegen`; 
-//   navigate(path);
-// }
 
 function ActivityCard (){
   const { user } = useAuth0();
@@ -62,9 +46,7 @@ function ActivityCard (){
       :
           <div>Retrieving date from the API, please wait...</div>
       }
-      
-          {/* <div><button className="btn btn-primary btn-block" onClick={routeChange}>Activiteit Toevoegen</button></div> */}
-          <NavLink to="/ActiviteitenToevoegen" className="btn btn-primary">Activiteit Toevoegen</NavLink>
+                <NavLink to="/ActiviteitenToevoegen" className="btn btn-primary">Activiteit Toevoegen</NavLink>
       </div>
     )
 }
