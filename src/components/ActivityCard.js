@@ -4,7 +4,6 @@ import { useAuth0 } from "@auth0/auth0-react";
 import {NavLink} from "react-router-dom";
 
 function ActivityCard (){
-  const { user } = useAuth0();
   const [activities, setActivities] = React.useState();
 
   useEffect(() => {
