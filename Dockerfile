@@ -1,5 +1,5 @@
 # pull official base image
-FROM node.v14.17.6
+FROM node:v14.x
 
 # set working directory
 WORKDIR /app
