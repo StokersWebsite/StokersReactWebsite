@@ -29,14 +29,14 @@ function ActivityCard (){
                   <p className="card-text">Wanneer? {activity.date}</p>
                   <p className="card-text">Voor hoeveel personen? {activity.maxMembers}</p>
                   {/* <Button>Ik doe mee!</Button> */}
-                  {/* <a href="#" size="50px" className="btn btn-primary"
+                  <a href="#" size="50px" className="btn btn-primary"
                   style={{
                     maxWidth: '500px',
                     maxHeight: '500px',
                     minWidth: '30',
                     minheight: '30',
                   }}
-                  >Ik doe mee!</a> */}
+                  >Ik doe mee!</a>
                    {''}
                </div>
               )
