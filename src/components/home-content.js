@@ -9,7 +9,7 @@ const HomeContent = () => (
 
     <div className="next-steps">
 
-        <h2 className="my-5 text-center">What can I do next?</h2>
+        <h2 className="my-5 text-center">Wat is er allemaal op de site te vinden?</h2>
 
         <div className="row">
             <div className="col-md-5 mb-4">
@@ -66,10 +66,7 @@ const HomeContent = () => (
                     <h6 className="mb-3">
                     </h6>
                     <p>
-                        Rules are JavaScript functions that execute when a user authenticates
-                        to your application. They run once the authentication process is
-                        complete, and you can use them to customize and extend Auth0's
-                        capabilities.
+                        Deze front-end is gemaakt in React JS. 
                     </p>
                 </div>
             </div>
